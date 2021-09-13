@@ -72,6 +72,9 @@ body {
 }
 
 .header__logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
 }
 
 .header__menu {
