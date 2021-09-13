@@ -65,6 +65,8 @@ body {
 }
 
 .header__container {
+    display: flex;
+    
 }
 
 .header__logo {
