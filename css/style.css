@@ -85,6 +85,7 @@ body {
 }
 
 .menu__list {
+  display: flex;
 }
 
 .menu__item {
@@ -92,6 +93,7 @@ body {
 
 .menu__link {
     color: #737373;
-    line-height: 24px;
+    font-weight: 600;
+    line-height: calc(24 / 14 * 100%);
 }
 
