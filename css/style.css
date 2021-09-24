@@ -143,8 +143,47 @@ body {
   flex: 1 1 auto;
 }
 
+.page__main-block {
+
+}
+
 /*---FOOTER-----------------------------------------------------------------------*/
 
 .footer {
 
+}
+
+
+/*---MAIN-BLOCK-----------------------------------------------------------------------*/
+
+.main-block {
+
+}
+
+.main-block__container {
+
+}
+
+.main-block__body {
+
+}
+
+.main-block__title {
+  
+}
+
+.main-block__text {
+  
+}
+
+.main-block__buttons {
+  
+}
+
+.main-block__button {
+  
+}
+
+.main-block__button_border {
+  
 }
