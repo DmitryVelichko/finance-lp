@@ -159,6 +159,10 @@ body {
 .page__main-block {
 }
 
+.page__services {
+
+}
+
 /*---FOOTER-----------------------------------------------------------------------*/
 
 .footer {
@@ -276,4 +280,46 @@ body {
   .main-block__image {
     opacity: 0.5;
   }
+}
+
+/*---SERVICES-----------------------------------------------------------------------*/
+
+
+
+.services {
+
+}
+
+.services__container {
+
+}
+
+
+.services__body {
+
+}
+
+.services__column {
+
+}
+
+.services__item {
+
+}
+
+
+.item-service {
+
+}
+
+.item-service__icon {
+
+}
+
+.item-service__title {
+
+}
+
+.item-service__text {
+
 }
