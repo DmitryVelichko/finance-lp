@@ -334,6 +334,12 @@ body {
   background-color: #0d5c63;
 }
 
+@media (max-width: 479px) {
+  .services__item {
+    padding: 25px;
+  }
+}
+
 .item-service {
 }
 
