@@ -444,7 +444,12 @@ body {
   margin: 0 0 10px 0;
 }
 
-.advantages__icon{}
+.advantages__icon{
+  height: 48px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
 
 .advantages__value{
 font-size: 40px;
