@@ -165,6 +165,29 @@ body {
   z-index: 2;
 }
 
+.page__advantages {
+}
+
+/*---HEADER-BLOCK-----------------------------------------------------------------------*/
+
+.header-block{
+  text-align: center;
+  
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.header-block__title{
+  line-height: 142%;
+  font-size: 40px;
+ 
+}
+
+.header-block__sub-title{
+  line-height: 142%;
+  color: #737373;
+}
+
 /*---FOOTER-----------------------------------------------------------------------*/
 
 .footer {
@@ -381,8 +404,7 @@ body {
 
 /*---FOOTER-----------------------------------------------------------------------*/
 
-.page__advantages {
-}
+
 
 .advantages {
 }
@@ -396,13 +418,6 @@ body {
 .advantages__header {
 }
 
-.header-block{
-
-}
-
-.header-block__title{}
-
-.header-block__sub-title{}
 
 .advantages__body{}
 
