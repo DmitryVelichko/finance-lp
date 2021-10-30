@@ -35,6 +35,7 @@ html,
 body {
   height: 100%;
   line-height: 1;
+  background: #fafafa;
   font-size: 14px;
   color: #252b42;
   font-family: Montserrat;
@@ -318,6 +319,7 @@ body {
 /*---SERVICES-----------------------------------------------------------------------*/
 
 .services {
+  
 }
 
 .services__container {
@@ -410,7 +412,7 @@ body {
 
 .advantages {
   padding: 80px 0;
-  background: #fafafa;
+
 }
 
 .advantages__container {
@@ -433,12 +435,19 @@ body {
 
 .advantages__item{
   background-color: #fff;
-  padding: 30px 40px;
+  padding: 30px;
   text-align: center;
 }
 
 .advantages__icon{}
 
-.advantages__value{}
+.advantages__value{
+font-size: 40px;
+line-height: 142% ;
+}
 
-.advantages__text{}
+.advantages__text{
+  color: #737373;
+  font-size: 16px;
+  line-height: 150%; /* 24-height/16-font-size)*100% LINE-HEIGHT FORMULA*/ 
+}
