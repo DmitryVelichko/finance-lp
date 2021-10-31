@@ -172,6 +172,10 @@ body {
 .page__practice {
 }
 
+.page__whoweare {
+
+}
+
 /*---HEADER-BLOCK-----------------------------------------------------------------------*/
 
 .header-block {
@@ -604,3 +608,33 @@ body {
   display: block;
   padding: 0 0 60% 0;
 }
+
+/*---WHOWEARE-----------------------------------------------------------------------*/
+
+.whoweare{}
+
+.whoweare__container{}
+
+.whoweare__header{}
+
+.header-block{}
+
+.header-block__title{}
+
+.header-block__sub-title{}
+
+.whoweare__body{}
+
+.whoweare__video{}
+
+.whoweare__content{}
+
+.whoweare__title{}
+
+.whoweare__text{}
+
+.whoweare__items{}
+
+.whoweare__item{}
+
+.item-whoweare{}
