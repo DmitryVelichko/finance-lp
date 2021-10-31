@@ -611,11 +611,15 @@ body {
 
 /*---WHOWEARE-----------------------------------------------------------------------*/
 
-.whoweare{}
+.whoweare{
+  padding: 80px 0 130px 0;
+}
 
 .whoweare__container{}
 
-.whoweare__header{}
+.whoweare__header{
+  margin: 0 0 100px 0;
+}
 
 .header-block{}
 
@@ -623,11 +627,18 @@ body {
 
 .header-block__sub-title{}
 
-.whoweare__body{}
+.whoweare__body{
+  display: flex;
+}
 
-.whoweare__video{}
+.whoweare__video{
+  flex: 0 0 57%; /* 600px ширина видео / 1046 ширина огранич. контейнера */
+  position: relative;
+}
 
-.whoweare__content{}
+.whoweare__content{
+  flex: 1 1 auto;
+}
 
 .whoweare__title{}
 
