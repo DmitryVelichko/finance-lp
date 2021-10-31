@@ -634,17 +634,46 @@ body {
 .whoweare__video{
   flex: 0 0 57%; /* 600px ширина видео / 1046 ширина огранич. контейнера */
   position: relative;
+  padding: 0 0 42.25% 0; /* 442(height)/600(width)*100 */
+}
+
+.whoweare__video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 
 .whoweare__content{
   flex: 1 1 auto;
+  padding: 0 0 0 121px;
 }
 
-.whoweare__title{}
+.whoweare__title{
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 142%;
+  letter-spacing: 0.2px;
+}
 
-.whoweare__text{}
+.whoweare__title:not(:last-child) {
+  margin: 0 0 10px 0;
+}
 
-.whoweare__items{}
+.whoweare__text{
+  color: #737373;
+  line-height: 142%;
+}
+
+.whoweare__top:not(:last-child) {
+  margin: 0 0 50px 0;
+}
+
+.whoweare__items{
+  margin: 50px 0 0 0;
+}
 
 .whoweare__item{}
 
