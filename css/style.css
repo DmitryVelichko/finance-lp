@@ -529,11 +529,26 @@ body {
   flex: 0 1 25%;
 }
 
+@media (max-width: 1040px) {
+  .practice__column {
+    flex: 0 1 50%;
+  }
+}
+
+@media (max-width: 630px) {
+  .practice__column {
+    flex: 0 1 100%;
+  }
+}
+
 .practice__item {
 }
 
 .item-practice {
   background-color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .item-practice__link:hover {
@@ -551,6 +566,7 @@ body {
 
 .item-practice__content {
   padding: 30px;
+  flex: 1 1 auto;
 }
 
 .item-practice__title {
