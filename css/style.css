@@ -566,4 +566,6 @@ body {
   line-height: 142%;
 }
 .item-practice__image {
+  display: block;
+  padding: 0 0 60% 0;
 }
