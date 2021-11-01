@@ -175,7 +175,11 @@ body {
 .page__whoweare {
 }
 
-.page__clients{}
+.page__clients {
+}
+
+.page__subscribe {
+}
 
 /*---HEADER-BLOCK-----------------------------------------------------------------------*/
 
@@ -776,28 +780,27 @@ body {
 
 /*---WHOWEARE-----------------------------------------------------------------------*/
 
-
-
-.clients{
+.clients {
   padding: 50px 0;
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .clients {
     padding: 30px 0;
   }
 }
 
-.clients__container{}
+.clients__container {
+}
 
-.clients__items{
+.clients__items {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.clients__item{
+.clients__item {
   padding: 8px 15px;
   flex: 0 1 16.6667%;
   text-align: center;
@@ -806,4 +809,27 @@ body {
 
 .clients__item img {
   max-width: 100%;
+}
+
+/*---SUBSCRIBE-----------------------------------------------------------------------*/
+
+.subscribe {
+}
+
+.subscribe__container {
+}
+
+.subscribe__body {
+}
+
+.subscribe__title {
+}
+
+.subscribe__form {
+}
+
+.subscribe__input {
+}
+
+.subscribe__button {
 }
