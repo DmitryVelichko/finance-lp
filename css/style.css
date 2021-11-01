@@ -985,4 +985,17 @@ body {
 }
 
 .item-getintouch__label{}
-.item-getintouch__button{}
+
+.item-getintouch__button{
+  border: 1px solid #ff7b47;
+  min-height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  color:#ff7b47;
+  line-height: 142%;
+  padding: 5px 20px;
+  font-weight: 600;
+}
