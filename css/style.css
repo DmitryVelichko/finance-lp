@@ -940,9 +940,11 @@ body {
   margin: 0 0 80px 0;
 }
 
-.getintouch__items {
-  display: flex;
-  align-items: center;
+@media (min-width: 992px) {
+  .getintouch__items {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .getintouch__item {
@@ -960,6 +962,12 @@ body {
 
 .item-getintouch_active {
   background: #252b42;
+  padding: 80px 15px;
+  color: #fff;
+}
+
+.item-getintouch_active .item-getintouch__button {
+  border: 1px solid #fff;
   color: #fff;
 }
 
