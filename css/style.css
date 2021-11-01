@@ -175,7 +175,8 @@ body {
 .page__whoweare {
 }
 
-.page__clients {
+.page__clients:not(:last-child) {
+  margin: 0 0 10px 0;
 }
 
 .page__subscribe {
@@ -820,12 +821,26 @@ body {
 }
 
 .subscribe__body {
+  margin: 0 30px;
+  display: flex;
+  padding: 50px 30px;
+  align-items: center;
+  background: #17213c;
+  border-radius: 2px;
 }
 
 .subscribe__title {
+  flex: 0 1 50%;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
 }
 
 .subscribe__form {
+  flex: 0 1 50%;
+  display: flex;
+  align-items: center;
 }
 
 .subscribe__input {
