@@ -822,16 +822,19 @@ body {
 
 .subscribe__body {
   margin: 0 30px;
+  justify-content:space-between;
   display: flex;
-  padding: 50px 30px;
+  padding: 30px 50px;
   align-items: center;
   background: #17213c;
   border-radius: 2px;
 }
 
 .subscribe__title {
+  max-width: 266px;
   flex: 0 1 50%;
-  font-size: 24px;
+  color: #fff;
+  font-size: 133%;
   line-height: 32px;
   font-weight: 700;
   letter-spacing: 0.1px;
@@ -844,7 +847,18 @@ body {
 }
 
 .subscribe__input {
+  flex: 1 1 auto;
 }
 
 .subscribe__button {
+  background: #ff7b47;
+  border: 1px solid #e6e6e6;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  min-height: 58px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 22px;
 }
