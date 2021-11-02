@@ -1035,7 +1035,7 @@ body {
   .getintouch__header {
     margin: 0 0 50px 0;
   }
-  .item-getintouch_active{
+  .item-getintouch_active {
     padding: 50px 15px;
   }
 }
@@ -1048,4 +1048,52 @@ body {
 
 /*---CONTACT-----------------------------------------------------------------------*/
 
-.contact{}
+.contact {
+  background-color: #fff;
+  padding: 42px 0;
+}
+
+.contact__container {
+}
+
+.contact__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact__content {
+}
+
+.contact__title {
+  font-weight: 700;
+  letter-spacing: 0.1;
+  font-size: 24px;
+  line-height: 133%; /* line-height из макета - 32px. LH/Font-size*100%= если изменить шрифт, LH менять не придется*/
+}
+
+.contact__title:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.contact__text {
+  color: #737373;
+  line-height: 142%;
+}
+
+.contact__button {
+  display: flex;
+  background-color: #ff7b47;
+  border-radius: 5px;
+  min-height: 58px;
+  padding: 5px 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  transition: background-color 0.3 ease 0s;
+}
+
+.contact__button:hover {
+  background-color: #aa5330;
+}
