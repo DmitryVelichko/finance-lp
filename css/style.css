@@ -1056,14 +1056,23 @@ body {
 .contact__container {
 }
 
-.contact__body {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.contact__content {
+  padding: 0 0 20px 0;
 }
 
-.contact__content {
+@media(min-width: 767px) {
+  .contact__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact__content {
+    padding: 0 20px 0 0;
+  }
 }
+
+
 
 .contact__title {
   font-weight: 700;
