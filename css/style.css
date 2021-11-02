@@ -1060,7 +1060,7 @@ body {
   padding: 0 0 20px 0;
 }
 
-@media(min-width: 767px) {
+@media (min-width: 767px) {
   .contact__body {
     display: flex;
     align-items: center;
@@ -1071,8 +1071,6 @@ body {
     padding: 0 20px 0 0;
   }
 }
-
-
 
 .contact__title {
   font-weight: 700;
